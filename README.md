@@ -1,22 +1,22 @@
 
 # Goose Individual Identification Dataset
 
-This dataset contains photographic images and manual polygonal segmentations of 70 individual Canada geese (some IDs missing). 
-Each goose is associated with a unique numeric ID (01 to 70).
+This dataset contains photographic images and manual polygonal segmentations of 58 individual Canada geese. 
+Each goose is associated with a unique numeric ID, such as 02, 03, . . ., 69. 
 
 ## Structure
-- `images/`: Contains subfolders `01/`, `02/`, ..., `70/`, each with original images.
+- `images/`: Contains subfolders `02/`, `03/`, ..., `69/`, each with original images.
 - `annotations/`: Polygon annotations in JSON format (one file per goose).
 - `merged_annotations.json`: A merged COCO-format file.
 - `goose_metadata.csv`: Metadata linking each image to its goose ID.
 
 ## Data Collection
-Images were captured in [your location, e.g., Massachusetts wetlands], during [time period, e.g., Spring 2024], using [camera model, e.g., Google Pixel 6 Pro]. Segmentation was manually annotated using [tool name, e.g., DigitalSreeni Image Annotator].
+Images were captured along Emeral Necklace of Brookline and Boston, Massachusetts, during early 2023 to early 2025, using mobile phones, e.g., Google Pixel 4 and Pixel 7. Segmentation was manually annotated using DigitalSreeni Image Annotator.
 
 ## License
-[Insert license type here, e.g., CC BY 4.0]
+Open data licenses. 
 
 ## Citation
 If you use this dataset, please cite:
-- [Author(s)] (2025). Goose Individual Identification Dataset. Scientific Data. [DOI after acceptance]
+- Ronni Chang (2025). Goose Individual Identification Dataset. Scientific Data. [DOI after acceptance]
 
